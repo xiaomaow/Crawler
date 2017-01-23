@@ -1,0 +1,7 @@
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Service/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Service/bin/Debug/Crawler.Service.dll.config
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Service/bin/Debug/Crawler.Service.dll.mdb
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Service/bin/Debug/Crawler.Service.dll
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Service/obj/Debug/Crawler.Service.dll
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Service/obj/Debug/Crawler.Service.dll.mdb
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Service/bin/Debug/MySql.Data.dll

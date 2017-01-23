@@ -1,3 +1,17 @@
 ﻿<Properties StartupConfiguration="{025418E1-CF9C-43AC-9615-A44B4A60E4CB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Crawler.Service/DBHelper.cs">
+    <Files>
+      <File FileName="Crawler/Program.cs" Line="24" Column="5" />
+      <File FileName="Crawler.Service/MyClass.cs" Line="1" Column="1" />
+      <File FileName="Crawler.Service/app.config" Line="1" Column="1" />
+      <File FileName="Crawler.Service/DBHelper.cs" Line="2" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Crawler PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

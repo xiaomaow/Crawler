@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler\Crawler.csproj", "{025418E1-CF9C-43AC-9615-A44B4A60E4CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Service", "Crawler.Service\Crawler.Service.csproj", "{9C8BF82D-FF0D-4753-8A8D-EDF760241287}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{025418E1-CF9C-43AC-9615-A44B4A60E4CB}.Debug|x86.Build.0 = Debug|x86
 		{025418E1-CF9C-43AC-9615-A44B4A60E4CB}.Release|x86.ActiveCfg = Release|x86
 		{025418E1-CF9C-43AC-9615-A44B4A60E4CB}.Release|x86.Build.0 = Release|x86
+		{9C8BF82D-FF0D-4753-8A8D-EDF760241287}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9C8BF82D-FF0D-4753-8A8D-EDF760241287}.Debug|x86.Build.0 = Debug|Any CPU
+		{9C8BF82D-FF0D-4753-8A8D-EDF760241287}.Release|x86.ActiveCfg = Release|Any CPU
+		{9C8BF82D-FF0D-4753-8A8D-EDF760241287}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

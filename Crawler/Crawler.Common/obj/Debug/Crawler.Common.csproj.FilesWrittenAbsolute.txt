@@ -1,0 +1,5 @@
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Common/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Common/bin/Debug/Crawler.Common.dll.mdb
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Common/bin/Debug/Crawler.Common.dll
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Common/obj/Debug/Crawler.Common.dll
+/Users/wangwenjun/Documents/workspace/c#/Crawler/Crawler/Crawler.Common/obj/Debug/Crawler.Common.dll.mdb

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler\Crawler.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Service", "Crawler.Service\Crawler.Service.csproj", "{9C8BF82D-FF0D-4753-8A8D-EDF760241287}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Common", "Crawler.Common\Crawler.Common.csproj", "{7D777EBD-1D77-475C-8407-46F4CAF87BD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{9C8BF82D-FF0D-4753-8A8D-EDF760241287}.Debug|x86.Build.0 = Debug|Any CPU
 		{9C8BF82D-FF0D-4753-8A8D-EDF760241287}.Release|x86.ActiveCfg = Release|Any CPU
 		{9C8BF82D-FF0D-4753-8A8D-EDF760241287}.Release|x86.Build.0 = Release|Any CPU
+		{7D777EBD-1D77-475C-8407-46F4CAF87BD8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D777EBD-1D77-475C-8407-46F4CAF87BD8}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D777EBD-1D77-475C-8407-46F4CAF87BD8}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D777EBD-1D77-475C-8407-46F4CAF87BD8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

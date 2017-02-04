@@ -1,0 +1,4 @@
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Common\bin\Debug\Crawler.Common.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Common\bin\Debug\Crawler.Common.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Common\obj\Debug\Crawler.Common.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Common\obj\Debug\Crawler.Common.pdb

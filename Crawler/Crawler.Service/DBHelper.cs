@@ -35,8 +35,8 @@ namespace Crawler.Service
 			{
 				try
 				{
-					//return ConfigurationManager.ConnectionStrings[this.dbName].ToString();
-					return "Server=568f1c4817dcd.sh.cdb.myqcloud.com;Port=5579;User=root;Password=wwj88038040;database=crawler_file;CharSet=utf-8";
+					return ConfigurationManager.ConnectionStrings[this.dbName].ToString();
+					//return "Server=568f1c4817dcd.sh.cdb.myqcloud.com;Port=5579;User=root;Password=wwj88038040;database=crawler_file;CharSet=utf-8";
 				}
 				catch (Exception ex)
 				{

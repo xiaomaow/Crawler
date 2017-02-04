@@ -1,0 +1,7 @@
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler\bin\Debug\Crawler.exe.config
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler\obj\x86\Debug\Crawler.exe
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler\bin\Debug\Crawler.exe
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler\bin\Debug\Crawler.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler\obj\x86\Debug\Crawler.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler\obj\x86\Debug\Crawler.pdb

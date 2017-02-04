@@ -1,0 +1,11 @@
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.ServiceTests.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.ServiceTests.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.Service.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.Service.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.ServiceTests.dll.config

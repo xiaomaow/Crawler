@@ -1,0 +1,6 @@
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Service.dll.config
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Service.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Service.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\obj\Debug\Crawler.Service.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\obj\Debug\Crawler.Service.pdb

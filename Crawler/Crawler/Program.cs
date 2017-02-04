@@ -10,15 +10,17 @@ namespace Crawler
 	{
 		public static void Main(string[] args)
 		{
-			string strUrl = "http://www.dygang.com";
+			//string strUrl = "http://www.dygang.com";
 			try
 			{
-				WebRequest request = WebRequest.Create(strUrl);
+				/**WebRequest request = WebRequest.Create(strUrl);
 				WebResponse response = request.GetResponse();
 				StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding("gb2312"));
 				string strMsg = reader.ReadToEnd();
 
-				Console.Write(strMsg);
+				Console.Write(strMsg);**/
+
+				//测试数据库链接
 			}
 			catch (Exception ex)
 			{

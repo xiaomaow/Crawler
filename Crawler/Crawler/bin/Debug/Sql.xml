@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mysql_commands>
+  <command id="insert_film">
+    <description>
+      概  要：插入电影信息
+      作  者：wwj
+      作成日：2017年2月4日16:54:03
+    </description>
+    <sql>
+      <![CDATA[
+        insert into file_list(title) values(@title)
+      ]]>      
+    </sql>
+  </command>
+</mysql_commands>

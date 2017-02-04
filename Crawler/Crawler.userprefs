@@ -4,18 +4,7 @@
       <File FileName="Crawler.Common/XMLHelper.cs" Line="1" Column="1" />
       <File FileName="Crawler/Program.cs" Line="13" Column="6" />
       <File FileName="Crawler.Service/DBHelper.cs" Line="39" Column="56" />
-      <File FileName="Crawler.ServiceTest/DBHelperTest.cs" Line="15" Column="1" />
-      <File FileName="Crawler.ServiceTest/app.config" Line="7" Column="159" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Crawler" expanded="True">
-            <Node name="Crawler.ServiceTest" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Crawler PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -27,4 +16,7 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Crawler.ServiceTest/Crawler.ServiceTest.csproj</String>
+  </DisabledProjects>
 </Properties>

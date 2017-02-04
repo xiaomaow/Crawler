@@ -39,6 +39,11 @@ namespace Crawler.Common
 			return doc.SelectSingleNode(nodename);
 		}
 
+        public XmlNodeList SelectNodes(string xPath)
+        {
+            return doc.SelectNodes(xPath);
+        }
+
 		/// <summary>
 		/// 返回子节点列表
 		/// </summary>

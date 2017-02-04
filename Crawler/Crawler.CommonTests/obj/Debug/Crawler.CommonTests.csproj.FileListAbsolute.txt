@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.CommonTests.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.CommonTests.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.Common.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.Common.pdb
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.dll
+\\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.pdb

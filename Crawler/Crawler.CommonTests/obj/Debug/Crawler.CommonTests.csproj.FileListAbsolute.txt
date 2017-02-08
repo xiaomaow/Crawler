@@ -7,3 +7,10 @@
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.csprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.dll
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.pdb
+E:\workspace\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.CommonTests.dll
+E:\workspace\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.CommonTests.pdb
+E:\workspace\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.Common.dll
+E:\workspace\Crawler\Crawler\Crawler.CommonTests\bin\Debug\Crawler.Common.pdb
+E:\workspace\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.csprojResolveAssemblyReference.cache
+E:\workspace\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.dll
+E:\workspace\Crawler\Crawler\Crawler.CommonTests\obj\Debug\Crawler.CommonTests.pdb

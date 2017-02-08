@@ -1,0 +1,11 @@
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\Crawler.Model.dll.config
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\Crawler.Model.dll
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\Crawler.Model.pdb
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\EntityFramework.dll
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\MySql.Data.dll
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\EntityFramework.xml
+E:\workspace\Crawler\Crawler\Crawler.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\Crawler\Crawler\Crawler.Model\obj\Debug\Crawler.Model.dll
+E:\workspace\Crawler\Crawler\Crawler.Model\obj\Debug\Crawler.Model.pdb

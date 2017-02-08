@@ -9,3 +9,16 @@
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.dll
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.pdb
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.ServiceTests.dll.config
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.ServiceTests.dll.config
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.ServiceTests.dll
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.ServiceTests.pdb
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.Service.dll
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\MySql.Data.dll
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.Service.pdb
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.csprojResolveAssemblyReference.cache
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.dll
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\obj\Debug\Crawler.ServiceTests.pdb
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.Model.dll
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\EntityFramework.dll
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\Crawler.Model.pdb
+E:\workspace\Crawler\Crawler\Crawler.ServiceTests\bin\Debug\EntityFramework.xml

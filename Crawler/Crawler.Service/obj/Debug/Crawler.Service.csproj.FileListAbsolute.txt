@@ -4,3 +4,16 @@
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\bin\Debug\MySql.Data.dll
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\obj\Debug\Crawler.Service.dll
 \\Mac\Home\Documents\workspace\c#\Crawler\Crawler\Crawler.Service\obj\Debug\Crawler.Service.pdb
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Service.dll.config
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Service.dll
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Service.pdb
+E:\workspace\Crawler\Crawler\Crawler.Service\obj\Debug\Crawler.Service.dll
+E:\workspace\Crawler\Crawler\Crawler.Service\obj\Debug\Crawler.Service.pdb
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Model.dll
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\EntityFramework.dll
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\Crawler.Model.pdb
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\EntityFramework.xml
+E:\workspace\Crawler\Crawler\Crawler.Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\Crawler\Crawler\Crawler.Service\obj\Debug\Crawler.Service.csprojResolveAssemblyReference.cache

@@ -29,7 +29,20 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web" />
     <Reference Include="System.Net" />
     <Reference Include="MySql.Data">
@@ -46,6 +59,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\Sql.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Crawler.Model\Crawler.Model.csproj">
+      <Project>{2fb58f6e-7d70-4d85-9daf-54f5d0a5634c}</Project>
+      <Name>Crawler.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crawler.Service\Crawler.Service.csproj">
+      <Project>{9c8bf82d-ff0d-4753-8a8d-edf760241287}</Project>
+      <Name>Crawler.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

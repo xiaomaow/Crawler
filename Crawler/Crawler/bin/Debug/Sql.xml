@@ -12,4 +12,16 @@
       ]]>      
     </sql>
   </command>
+  <command id="have_filmname">
+    <description>
+      概  要：查询电影名称是否存在
+      作  者：wwj
+      作成日：2017年2月4日16:54:03
+    </description>
+    <sql>
+      <![CDATA[
+        select id from file_list where title = @title
+      ]]>
+    </sql>
+  </command>
 </mysql_commands>

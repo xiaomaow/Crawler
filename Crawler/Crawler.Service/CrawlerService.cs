@@ -54,7 +54,11 @@ namespace Crawler.Service
         {
             foreach (File_link _link in _list)
             {
-                context.file_link.Add(_link);
+                var query = context.file_link.Where(a => a.link == _link.link).FirstOrDefault();
+                if (query == null)
+                {
+                    context.file_link.Add(_link);
+                }
             }
             context.SaveChanges();
         }

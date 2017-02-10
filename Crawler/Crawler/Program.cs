@@ -5,6 +5,7 @@ using System.Net;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 using Crawler.Model;
 using Crawler.Service;
@@ -14,10 +15,18 @@ namespace Crawler
     {
         public static void Main(string[] args)
         {
-            string strUrl = "http://www.dygang.com/bd";
             try
             {
-                GetFilmList();
+                string[] urls = new string[3]{
+                    "http://www.dygang.com/ys/index{0}.htm"
+                    ,"http://www.dygang.com/bd/index{0}.htm"
+                    ,"http://www.dygang.com/yx/index{0}.htm"
+                };
+                foreach (string url in urls)
+                {
+                    GetFilmList(url);
+                }
+                Console.WriteLine("抓取完成");
                 //GetFilmDetail("", "");
             }
             catch (Exception ex)
@@ -29,26 +38,35 @@ namespace Crawler
 
         private static string GetHtml(string strUrl, string text_encoding = "gb2312")
         {
-            //WebRequest request = WebRequest.Create(strUrl);
-            HttpWebRequest request = (HttpWebRequest)(WebRequest.Create(strUrl));
-            //WebResponse response = request.GetResponse();     
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            if (response.StatusCode == HttpStatusCode.NotFound)
+            try
             {
+                //WebRequest request = WebRequest.Create(strUrl);
+                HttpWebRequest request = (HttpWebRequest)(WebRequest.Create(strUrl));
+                //WebResponse response = request.GetResponse();     
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                if (response.StatusCode == HttpStatusCode.NotFound)
+                {
+                    return "404";
+                }
+                StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding(text_encoding));
+                string strMsg = reader.ReadToEnd();
+                return strMsg;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
                 return "404";
             }
-            StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding(text_encoding));
-            string strMsg = reader.ReadToEnd();
-            return strMsg;
+
         }
 
         /// <summary>
         /// 抓取电影港电影列表
         /// </summary>
-        public static void GetFilmList()
+        public static void GetFilmList(string baseUrl)
         {
             CrawlerService _service = new CrawlerService();
-            string baseUrl = "http://www.dygang.com/ys/index{0}.htm";
+            //string baseUrl = "http://www.dygang.com/ys/index{0}.htm";
             bool isCraw = true;
             int i = 0;
             while (isCraw == true)
@@ -89,6 +107,8 @@ namespace Crawler
                 }
                 _service.InsertFileList(_list);
                 i++;
+                Thread.Sleep(3000);
+                //break;
             }
         }
 
@@ -98,10 +118,10 @@ namespace Crawler
         public static void GetFilmDetail(string url, string film_title)
         {
             CrawlerService _service = new CrawlerService();
-            //url = "http://www.dygang.com/ys/20170129/36488.htm";
+            //url = "http://www.dygang.com/ys/20170118/36388.htm";
             string htmlText = GetHtml(url);
             //Console.WriteLine(htmlText);
-            string reg = "<a [^>]+?href=[\"']?([^\"']+)[\"']?[^>]*>([^<]+)</a>";
+            string reg = "<a[^>]+?href=[\"']?([^\"']+)[\"']?[^>]*>([^<]+)</a>";
             Regex _reg = new Regex(reg);
             MatchCollection matchs = _reg.Matches(htmlText);
 
@@ -110,9 +130,6 @@ namespace Crawler
             foreach (Match match in matchs)
             {
                 GroupCollection groups = match.Groups;
-                Console.WriteLine("group[0]:" + groups[0]);
-                Console.WriteLine("group[1]:" + groups[1]);//链接地址
-                Console.WriteLine("group[2]:" + groups[2]);//标题    
                 File_link _link = new File_link();
                 _link.film_title = film_title;
                 _link.link = groups[1].ToString();
@@ -123,6 +140,9 @@ namespace Crawler
                     )
                 {
                     _list.Add(_link);
+                    Console.WriteLine("group[0]:" + groups[0]);
+                    Console.WriteLine("group[1]:" + groups[1]);//链接地址
+                    Console.WriteLine("group[2]:" + groups[2]);//标题   
                 }
             }
             _service.InsertFileLink(_list);

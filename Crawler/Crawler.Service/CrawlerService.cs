@@ -35,6 +35,12 @@ namespace Crawler.Service
             context.SaveChanges();
         }
 
+        public List<File_link> GetFileList(string film_name)
+        {
+            var query = context.file_link.Where(a => a.title.Contains(film_name)).ToList();
+            return query;
+        }
+
         /// <summary>
         /// 查询标题是否存在
         /// </summary>

@@ -15,6 +15,77 @@ namespace Crawler
     {
         public static void Main(string[] args)
         {
+            string command = GetCommand();
+            Command(command);
+            Console.ReadKey();
+        }
+
+        /// <summary>
+        /// 查找电影
+        /// </summary>
+        /// <param name="filmname"></param>
+        private static void Find(string filmname)
+        {
+            CrawlerService _service = new CrawlerService();
+            List<File_link> list = _service.GetFileList(filmname);
+            foreach (File_link _link in list)
+            {
+                Console.WriteLine(string.Format("链接标题：{0}", _link.title));
+                Console.WriteLine(string.Format("链接地址：{0}", _link.link));
+            }
+        }
+
+        /// <summary>
+        /// 操作
+        /// </summary>
+        /// <param name="command"></param>
+        private static void Command(string command)
+        {
+            bool flag = false;
+            if (command == "更新")
+            {
+                flag = true;
+                UploadFilm();
+            }
+            if (command == "查找")
+            {
+                flag = true;
+                Console.WriteLine("请输入您要查找的电影名称：");
+                string film_name = Console.ReadLine();
+                Find(film_name);
+            }
+            if (command == "帮助")
+            {
+                flag = true;
+
+            }
+            if (flag == false)
+            {
+                Console.WriteLine("您输入的命令有误，请重新输入。");
+            }
+            string cmd = GetCommand();
+            Command(cmd);
+        }
+
+        /// <summary>
+        /// 获得操作命令
+        /// </summary>
+        /// <returns></returns>
+        private static string GetCommand()
+        {
+            Console.WriteLine("操作指南：");
+            Console.WriteLine("更新|查找|帮助");
+            Console.WriteLine("==============================================================");
+            Console.WriteLine("请输入您的命令:");
+            string command = Console.ReadLine();
+            return command;
+        }
+
+        /// <summary>
+        /// 更新所有电影
+        /// </summary>
+        private static void UploadFilm()
+        {
             try
             {
                 string[] urls = new string[3]{
@@ -33,8 +104,9 @@ namespace Crawler
             {
                 Console.WriteLine(ex.Message);
             }
-            Console.ReadKey();
         }
+
+
 
         private static string GetHtml(string strUrl, string text_encoding = "gb2312")
         {
